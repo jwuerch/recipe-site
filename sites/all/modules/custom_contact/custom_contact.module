@@ -4,5 +4,8 @@ function custom_contact_form_alter(&$form, &$form_state, $form_id) {
   if($form_id == 'contact_site_form') {
     $form['copy']['#type'] = 'hidden';
     $form['subject']['#type'] = 'hidden';
+    $form['mail']['#default_value'] = 'Defaulted Email';
+    $form['copy']['#default_value'] = 1;
+    $form['subject']['#default_value'] = "Feedback";
   }
 }
