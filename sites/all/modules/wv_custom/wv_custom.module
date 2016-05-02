@@ -11,4 +11,14 @@ function wv_custom_follow_networks_alter(&$networks, $uid = 0) {
     'title' => t('Drupal.org'),
     'domain' => 'drupal.org',
   );
+
+  $networks[$uid]['jason'] = array(
+    'title' => t('Link to Jason\'s GitHub'),
+    'domain' => 'github.com',
+  );
+
+  $networks[$uid]['ryan'] = array(
+    'title' => t('Link to Ryan\'s GitHub'),
+    'domain' => 'github.com',
+  );
 }
