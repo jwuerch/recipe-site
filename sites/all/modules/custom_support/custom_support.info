@@ -1,0 +1,5 @@
+name = Custom Support
+description = Custom Support
+package = My First Modules
+core = 7.x
+files[] custom_support.module
