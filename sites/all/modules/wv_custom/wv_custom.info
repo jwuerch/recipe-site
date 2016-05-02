@@ -1,0 +1,5 @@
+name = Follow Change
+description = adds IMDB link to follow module!
+package = My Custom Modules
+core = 7.x
+files[] = wv_custom.module
