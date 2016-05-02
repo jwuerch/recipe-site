@@ -1,0 +1,5 @@
+name = Custom contact
+description = A custom contact form
+package = My custom modules
+core = 7.x
+files[] = custom_contact.module
