@@ -1,0 +1,6 @@
+<?php
+
+function test_menu() {
+  $items = array();
+  return $items;
+}
