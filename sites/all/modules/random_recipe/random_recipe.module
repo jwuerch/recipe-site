@@ -1,0 +1,9 @@
+<?php
+
+function random_recipe_menu() {
+    $items['suprise_me'] = array(
+        'title' => 'Suprise Me!',
+        'type' => MENU_NORMAL_ITEM,
+        'des'
+    );
+}
